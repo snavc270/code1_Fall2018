@@ -3,7 +3,7 @@
 Here you will find all of the code from our class work, along with your weekly homework assignments. 
 
 ## Class syllabus 
-[Copy of our class syllabus](https://docs.google.com/document/d/1gjvq_7Ykc7ob10Kj1P3MUgnsIfC3cwqYPFaN7shzkqc/edit?usp=sharing)
+[Copy of our class syllabus](https://docs.google.com/document/d/1gjvq_7Ykc7ob10Kj1P3MUgnsIfC3cwqYPFaN7shzkqc/edit?usp=sharing).
 It is subject to change to accomodate learning curves and emphasize a deep comprehension of the material. 
 
 ## Our class drive
