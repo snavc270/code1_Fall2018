@@ -1,4 +1,4 @@
-# Week 1 homework
+# Week 2 homework
 
 Your homework assignment for this week is to build on your scene from last week, adding transformations and some basic interactivity 
 
