@@ -17,6 +17,9 @@ void setup(){
 
 void draw(){
   background(255); 
+  
+  //drawing a 2d grid with 6x6 ellipses
+  //every circle is placed 100 units apart
   //for(int i = 0; i<6; i++){
   //  for(int j = 0; j<6; j++){
   //    ellipse(i*100, j*100, 50, 50);  
@@ -34,12 +37,15 @@ void draw(){
       //calculate distance from mouse to circle 
       float dist  = dist(i, j, mouseX, mouseY);
       
-      //use map function to map from 0, width , 0, 255 
+      //use map function to map our fill opacity to how close the mouse is (our distance calculated above)
+      //the 2nd and 3rd paremeters are the range we start with, and the last 
+      //two parameters are the range we want to map to 
+      //in this case, we want to map to a range of 0-255 (range for opacity)
+      //you can change the 3rd parameter to increase or decrease the radius of the "spotlight"
+    
       int o = int(map(dist, 0, 100, 0, 255));
       fill(0, g, b, o); 
       ellipse(i, j, size, size); 
     }
   }
-  
-  
 }
