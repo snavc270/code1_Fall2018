@@ -11,7 +11,7 @@ void setup(){
 }
 
 void draw(){
-  //why can't we use the other sume here? 
+  //why can't we use the other sum here? 
   sum_global = addNumbers(n1, n2);
   
   additionSentence = str(n1) + " + " + str(n2) + " = " + str(sum_global); 
@@ -23,6 +23,3 @@ int addNumbers(int num1, int num2){
   int sumLocal = num1 + num2; 
   return sumLocal; 
 }
-
-//in class challenge generate a different number when click on a button 
-//remember our sketch from last week! 
