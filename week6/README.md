@@ -4,10 +4,10 @@ Array week! Arrays are a great way to store variables and access that data effic
 
 ## Basic (required)
 1. Create an array of strings. 
-2. Use probability to randomly display text from your string array 
+2. Use probability to display text from your string array 
 3. Create an array to store the position of multiple shapes (5+)
 4. Assign values to your position array using a for loop 
-5. Complete midterm practice assingment 
+5. Complete midterm practice assignment 
 
 ## Challenge 
 1. Create collision in the bouncing ball sketch we created in class 
