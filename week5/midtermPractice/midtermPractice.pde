@@ -11,7 +11,7 @@ boolean buttonClicked;
 
 
 float result; 
-float num1, num2; 
+int num1, num2; 
 
 void setup(){
   size(600, 600); 
@@ -22,23 +22,20 @@ void setup(){
 }
 
 void draw(){
-
+    background(0); 
     result = multiply(num1, num2); 
 
     textSize(32); 
     
-    String result = num1 + " x " + num2 + " = " + result; 
+    String productResult = num1 + " x " + num2 + " = " + result; 
     
-    text(result, 0, height*.8);
+    text(productResult, 0, height*.8);
     
     if(buttonClicked){    
        fill(0, 255, 0); 
     }else{
        fill(255, 0, 0); 
     }
-    
-    num1 = random(0,100); 
-    num2 = random(0,100); 
    
     ellipse(x, y, size, size);  
 }
@@ -47,10 +44,15 @@ void mousePressed(){
   dist = dist(mouseX, mouseY, x, y); 
   if(dist <= size/2){
     buttonClicked = true; 
+    num1 = int(random(0,100)); 
+    num2 = int(random(0,100)); 
+  }else{
+    buttonClicked = false; 
   }
 }
 
 int multiply (int a, int b){
-    float product; 
+    int product; 
     product = a * b; 
+    return product; 
 }
