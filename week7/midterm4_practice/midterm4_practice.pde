@@ -2,28 +2,36 @@
 //each ellipse should change the background color when it's pressed 
 
 //right now the ellipses are all stacked on top of each other and the last ellipse is drawn
-int size = 50; 
-int xPos[] = new int[10]; 
+int size = 10; 
+int num; 
+int xPos[]; 
 
-color bgColor[] = new color[10]; 
+color bgColor[]; 
 
 void setup(){
   size(500, 500); 
+  num = width/size; 
+  xPos = new int[num]; 
+  bgColor = new int[num]; 
   
-  for(int i = 0; i<10; i++){
-    xPos[i] = size/2 + i; 
+  for(int i = 0; i<num; i++){
+    xPos[i] = i * size + size/2; 
     bgColor[i] = color(random(0,255), random(0, 255), random(0, 255)); 
   }
 }
 
 void draw(){
-  
-  for(int i = 0; i<10; i++){
-    float dist = dist(mouseX, mouseY, xPos[i], height/2);
+  if (mousePressed) {
+    for(int i = 0; i<num; i++){
+      if (dist(mouseX, mouseY, xPos[i], height/2) < size / 2) {
+        background(bgColor[i]);
+        break;
+      }
+    }
   }
   
-  for(int i = 0; i<10; i++){
-    background(bgColor[i]); 
+  for(int i = 0; i<num; i++){
     ellipse(xPos[i], height/2, size, size); 
   }
+  
 }

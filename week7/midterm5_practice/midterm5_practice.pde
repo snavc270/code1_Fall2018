@@ -6,7 +6,7 @@
 //and the squares are drawn evenly accross the screen
 
 int num = 10; 
-int opacity[][] = new int[10][10]; 
+int opacity[][] = new int[num][num]; 
 
 void setup(){
   size(600, 600); 
@@ -19,12 +19,12 @@ void setup(){
 }
 
 void draw(){
-  background(0); 
+  //background(0); 
   
   for(int i = 0; i<num; i++){
     for(int j = 0; j<num; j++){
       if(mouseX > i*width/num && mouseX<= (i+1)*width/num && 
-      mouseY > i*width/num && mouseY <=(i+1)*width/num){
+      mouseY > j*width/num && mouseY <=(j+1)*width/num){
         opacity[i][j] = 0; 
       }
       
@@ -32,7 +32,7 @@ void draw(){
         opacity[i][j] ++; 
       }
       fill(255, opacity[i][j]); 
-      rect(i, j, width/num, height/num);
+      rect(i*width/num, j*height/num, width/num, height/num);
     }
   }
 }
