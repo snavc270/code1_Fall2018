@@ -9,7 +9,7 @@ void setup(){
 }
 
 void draw(){
-  
+  //background(0); 
   position.x = r*cos(frameCount);
   position.y = -r*sin(frameCount);
   
