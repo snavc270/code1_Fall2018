@@ -33,7 +33,7 @@ void mousePressded(){
 add a conditional so the ellipse wraps around the canvas––when it reaches the end of 
 the canvas it appears on the opposite side
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/conditionals1.gif "")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question2.gif"")
 
 ```
 float x, y; 
