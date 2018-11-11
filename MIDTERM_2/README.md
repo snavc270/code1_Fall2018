@@ -33,7 +33,7 @@ void mousePressded(){
 add a conditional so the ellipse wraps around the canvas––when it reaches the end of 
 the canvas it appears on the opposite side
 
-![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question2.gif"")
+![](https://raw.githubusercontent.com/snavc270/code1_Fall2018/master/MIDTERM_2/question2.gif"")
 
 ```
 float x, y; 
@@ -72,7 +72,7 @@ void draw(){
 currently, there is a 50% chance this sketch will draw the first two backgrounds in 
 the bgColor array. Fix the sketch so that there is a 25% chance that each background color will be drawn when the mouse is clicked. 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/conditionals2.gif "")
+![](https://raw.githubusercontent.com/snavc270/code1_Fall2018/master/MIDTERM_2/question3.gif"")
 
 ```
 color bgColors [] = new color[4]; 
@@ -181,7 +181,7 @@ void draw() {
 
 this sketch maps the fill color to the distance between the mouse position and the pixel position. Fix the sketch to include a distY variable and fix the mapping functions to match the gradient in the example gif. 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/map1.png "")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question8.gif?raw=true"")
 
 ```
 void setup(){
