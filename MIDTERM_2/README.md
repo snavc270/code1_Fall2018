@@ -273,7 +273,7 @@ void generateRandom(float r1, float r2, float r3, float r4){
 
 this sketch currently draws a single, black ellipse at the center of the screen. Fix the sketch so the color of the ellipse increases to white and then get's reset to 0. 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/scope1.gif "")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question11.gif?raw=true "")
 
 ```
 void setup(){
@@ -301,7 +301,7 @@ void draw(){
 the for loop should be drawing 10 ellipses all with increasing size, but currently they are 
 all the same size. fix the scope of the variables so the ellipse size increases. 
 
-![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question11.gif?raw=true "") 
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question12.png?raw=true "") 
 
 ```
 void setup(){
