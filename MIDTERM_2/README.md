@@ -33,7 +33,7 @@ void mousePressded(){
 add a conditional so the ellipse wraps around the canvas––when it reaches the end of 
 the canvas it appears on the opposite side
 
-![](https://raw.githubusercontent.com/snavc270/code1_Fall2018/master/MIDTERM_2/question2.gif"")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question2.gif?raw=true "")
 
 ```
 float x, y; 
@@ -72,7 +72,7 @@ void draw(){
 currently, there is a 50% chance this sketch will draw the first two backgrounds in 
 the bgColor array. Fix the sketch so that there is a 25% chance that each background color will be drawn when the mouse is clicked. 
 
-![](https://raw.githubusercontent.com/snavc270/code1_Fall2018/master/MIDTERM_2/question3.gif"")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question3.gif?raw=true "")
 
 ```
 color bgColors [] = new color[4]; 
@@ -109,7 +109,7 @@ void mousePressed(){
 
 this sketch draws two rectangles on the side of the screen that change colors when the mouse is over them. change the sketch to have two more rectangles in the right side of the screen that behave in the same way when the mouse is over them.
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/conditionals4.gif"")
+![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/conditionals4.gif "")
 
 ```
 void setup() {
@@ -181,7 +181,7 @@ void draw() {
 
 this sketch maps the fill color to the distance between the mouse position and the pixel position. Fix the sketch to include a distY variable and fix the mapping functions to match the gradient in the example gif. 
 
-![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question8.gif?raw=true"")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question8.gif?raw=true "")
 
 ```
 void setup(){
@@ -211,7 +211,7 @@ void draw(){
 
 this sketch serves as a basic kind of clock visualization, with rectangles moving around the screen to represent the second, minute, and hour hands, with the rotation of the rectangles  based on the map function. this clock has the seconds hands working, but not the minutes and hours. finish the variable assignment in the draw loop to get them working.
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/map2.gif "")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question9.gif?raw=true "")
 
 ```
 void setup() {
@@ -244,7 +244,7 @@ void draw() {
 
 currently the sketch draws random points all over the canvas. adjust generateRandom parameters so points are only drawn within the two black rectangles. 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/random1.gif "")
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question10.gif?raw=true "")
 
 ```
 void setup() {
@@ -301,7 +301,7 @@ void draw(){
 the for loop should be drawing 10 ellipses all with increasing size, but currently they are 
 all the same size. fix the scope of the variables so the ellipse size increases. 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/scope2.png "") 
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question11.gif?raw=true "") 
 
 ```
 void setup(){
@@ -342,7 +342,7 @@ int myAddition(int myNum) {
 
 adjust the matrix transformations so that the small rectangle revolves around the large rectangle.
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/translate3.gif"") 
+![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/translate3.gif "") 
 
 ```
 float angle1 = 0;
@@ -380,7 +380,7 @@ void draw() {
 
 fix the sketch so the rectangle is drawn at the mouse position and rotates based on the mouseX position 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/translate2.gif "") 
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question15.gif?raw=true "") 
 
 ```
 void setup() {
@@ -404,7 +404,7 @@ void draw() {
 
 this sketch uses a single array of floats to store values used in a drawing function. change the sketch so that it instantiates an array of 10 ellipses instead, drawn on a diagonal and spaced evenly apart. you will need to change the way the values are given to the array. 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/arrays1.png "") 
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question16.png?raw=true "") 
 
 ```
 float[] xPos = { 100, 200, 300, 400, 500 };
@@ -426,7 +426,7 @@ void draw() {
 
 this sketch uses a 2d array to store colors that will be used to draw ellipses in a grid. change the draw loop so that it draws evenly spaced ellipses across the screen, and use your boolean to change the ellipse fill color to a random color one time when the ellipse is first clicked. 
 
-![](https://raw.githubusercontent.com/whoisbma/whoisbma.github.io/master/Code1/img/arrays3.gif "") 
+![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question17.gif?raw=true "") 
 
 ```
 int size = 60; 
