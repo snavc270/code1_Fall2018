@@ -17,7 +17,8 @@ void draw() {
     rotate(radians(theta)); 
     y = sin(theta)*25 + 200; 
     fill(255); 
-    ellipse(0, y, 50, 50); 
+    x++; 
+    ellipse(x, y, 50, 50); 
   popMatrix(); 
 
   fill(0); 
