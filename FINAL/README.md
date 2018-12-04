@@ -6,6 +6,8 @@ Please submit a link to your github respository folder to canvas before 11:59PM 
 create a PVector for velocity and acceleration. make the ellipse fall until it reaches the 
 bottom of the canvas, then reset it's position back to the top of the screen. make sure your ellipse doesn't continuously accelerate once it's reset. 
 
+![](https://github.com/snavc270/code1_Fall2018/blob/master/FINAL/IMG/Q1.gif?raw=true "")
+
 ```
 PVector pos, vel, accel; 
 
@@ -29,7 +31,10 @@ void draw(){
 ```
 
 ### QUESTION 2: Orbital motion (sin & cos)
+
 currently only the x position oscilates around the middle of the canvas. adjust the sketch so the ellipse orbits around the mouse position at a radial orbit size of 100. 
+
+![](https://github.com/snavc270/code1_Fall2018/blob/master/FINAL/IMG/Q2.gif?raw=true "")
 
 ```
 float x, y; 
@@ -52,6 +57,8 @@ void draw(){
 
 ### QUESTION 3: Wave motion (sin & cos)
 this sketch should draw 30 ellipses, evenly across the canvas, that oscillate at slightly different frequency. adjust the ellipse spacing, change the y offset so the wave starts in the middle of the canvas, and change the height of the wave so it covers the entire canvas.
+
+![](https://github.com/snavc270/code1_Fall2018/blob/master/FINAL/IMG/Q3.gif?raw=true "")
 
 ``` 
 int num = 25; 
@@ -86,6 +93,8 @@ void draw(){
 ### QUESTION 4: Classes
 
 this sketch currently draws a single ship that doesn't move. Fix the sketch to have an array of 40 ships that all move across the canvas and get reset when they move across the edge of the screen. 
+
+![](https://github.com/snavc270/code1_Fall2018/blob/master/FINAL/IMG/Q4.gif?raw=true "")
 
 ```
 Ship myShip;
@@ -141,6 +150,8 @@ class Ship{
 
 currently all of the shapes are drawn in the top left corner and the size is constantly oscillating. Fix the sketch so the shape is drawn at the mouse position and the size is randomized but doesn't flicker throughout the draw loop. 
 
+![](https://github.com/snavc270/code1_Fall2018/blob/master/FINAL/IMG/Q5.gif?raw=true "")
+
 ``` 
 ArrayList <Shape> shapes = new ArrayList<Shape>(); 
 
@@ -183,6 +194,9 @@ class Shape{
 
 ### Question 6: ArrayLists Part 2
 this sketch only draws a single particle that eventually fades to black with each bounce. Create an arrayList of the particles, add a new particle every 30 frames, and finally remove the particle when it is 'dead.' 
+
+![](https://github.com/snavc270/code1_Fall2018/blob/master/FINAL/IMG/Q6.gif?raw=true "")
+
 
 ```
 Particle myParticle; 
