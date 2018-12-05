@@ -56,7 +56,7 @@ void draw(){
 ```
 
 ### QUESTION 3: Wave motion (sin & cos)
-this sketch should draw 30 ellipses, evenly across the canvas, that oscillate at slightly different frequency. adjust the ellipse spacing, change the y offset so the wave starts in the middle of the canvas, and change the height of the wave so it covers the entire canvas.
+this sketch should draw 25 ellipses, evenly across the canvas, that oscillate at slightly different frequency. adjust the ellipse spacing, change the y offset so the wave starts in the middle of the canvas, and change the height of the wave so it covers the entire canvas.
 
 ![](https://github.com/snavc270/code1_Fall2018/blob/master/FINAL/IMG/Q3.gif?raw=true "")
 
